@@ -74,7 +74,7 @@ class CreateExampleGalleryTable extends Ruckusing_Migration_Base
         ]);
 
         $t->column('enum', 'enum', [
-            'values' => ['ENTRY 1','ENTRY 2','ENTRY 3'],
+            'values' => ['ENTRY 1', 'ENTRY 2', 'ENTRY 3'],
             'default' => null
         ]);
 
@@ -151,7 +151,7 @@ class CreateExampleGalleryTable extends Ruckusing_Migration_Base
 
         $t->finish();
 
-        $this->insert('example_gallery',[
+        $this->insert('example_gallery', [
             'active' => 1,
             'wysiwyg' => '<u>Test</u>',
             'checkbox' => 1,
@@ -209,7 +209,7 @@ class CreateExampleGalleryTable extends Ruckusing_Migration_Base
         $this->query($insert);
 
         $tables = ['example_gallery', 'example_users', 'example_files'];
-        foreach($tables as $tableName) {
+        foreach ($tables as $tableName) {
             $this->insert('directus_tables', [
                 'table_name' => $tableName,
                 'hidden' => $tableName == 'example_gallery' ? 0 : 1,
