@@ -3587,7 +3587,7 @@ VALUES
 	(NULL,'interfaces','slider','INT','slider',NULL,NULL,NULL,NULL,NULL,0,0,0,24,'',NULL),
 	(NULL,'interfaces','toggle','TINYINT','toggle',NULL,NULL,NULL,NULL,NULL,0,0,0,25,'',NULL),
 	(NULL,'interfaces','color','VARCHAR','color',NULL,NULL,NULL,NULL,NULL,0,0,0,26,'',NULL),
-	(NULL,'interfaces','section_break','VARCHAR','section_break',NULL,NULL,NULL,NULL,NULL,0,0,0,27,'',NULL),
+	(NULL,'interfaces','section_break','VARCHAR','section_break',NULL,NULL,NULL,NULL,NULL,0,0,0,27,'','{"id":"section_break","title":"Section Break","instructions":"<p>Instruction to show what will be below this section break</p>"}'),
 	(NULL,'interfaces','date_created','DATETIME','date_created',NULL,NULL,NULL,NULL,NULL,0,0,0,28,'',NULL),
 	(NULL,'interfaces','user_created','INT','user_created',NULL,NULL,NULL,NULL,NULL,0,0,0,29,'',NULL),
 	(NULL,'interfaces','date_modified','DATETIME','date_modified',NULL,NULL,NULL,NULL,NULL,0,0,0,30,'',NULL),
